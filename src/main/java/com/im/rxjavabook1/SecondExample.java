@@ -1,8 +1,7 @@
-package com.im.rxjava;
+package com.im.rxjavabook1;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
-import io.reactivex.functions.Consumer;
 
 public class SecondExample {
 
