@@ -10,23 +10,11 @@ public class Rxjava_Map {
         return ball + "<>";
     }
 
-    public void mapFunction() {
-        Function<String, String> getDiamond = ball -> ball + "<>";
-
-    }
-
     public static void main(String[] args) {
 
         //Function<String, String> getDiamond = ball -> ball + "<>";
 
-        String[] balls = {"1","2","3","4","5"};
-
-        Observable<String> observer = Observable.fromArray(balls)
-                //.map(ball -> ball + "<>");
-        .map(ball -> ball + "<>");
-
-        observer.subscribe(System.out::println);
-
+        //System.out.println(getDiamond.toString());
 
     }
 }
